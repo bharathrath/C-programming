@@ -1,7 +1,8 @@
 #include<stdio.h>
-int main()
+void main()
 {
  long int n;
+ printf("Enter an integer: ");
  scanf("%ld",&n);
  if(n>0 && n<=100000)
  {
@@ -19,5 +20,4 @@ int main()
  {
   printf("Negative");
  }
- return 0;
 }
