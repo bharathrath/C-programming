@@ -8,7 +8,7 @@ int main()
     for(i=1;i<=5;i++)
     {
         sum=n*i;
-        printf("%d  ",sum);
+        printf("%d\t",sum);
     }
     
     return 0;
