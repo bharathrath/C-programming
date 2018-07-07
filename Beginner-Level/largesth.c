@@ -1,27 +1,27 @@
 #include <stdio.h>
 
 int main(void) {
-	int n,a[100],i,j,temp;
+	int n,b[100],i,j,temp;
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
 	{
-		scanf("%d",&a[i]);
+		scanf("%d",&b[i]);
 	}
 	for(i=0;i<n;i++)
 	{
 		for(j=i+1;j<n;j++)
 		{
-			if(a[j]>a[i])
+			if(b[j]>b[i])
 			{
-				temp=a[j];
-				a[j]=a[i];
-				a[i]=temp;
+				temp=b[j];
+				b[j]=b[i];
+				b[i]=temp;
 			}
 	}
 	}
 	for(i=0;i<n;i++)
 	{
-		printf("%d",a[i]);
+		printf("%d",b[i]);
 	}
 	
 	return 0;
